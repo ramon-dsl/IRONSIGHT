@@ -9,18 +9,17 @@ Built with Next.js, TypeScript, Tailwind CSS, and Leaflet. No API keys required.
 ## Features
 
 - **Live Intel Feed** — 20+ RSS news sources with keyword relevance filtering
-- **Telegram OSINT** — 25 channels scraped in real-time with auto-translation
-- **Israel Alert Status** — Live Pikud HaOref / Tzeva Adom missile alerts
+- **Telegram OSINT** — 25+ channels scraped in real-time with auto-translation (Hebrew/Arabic/Farsi)
+- **Theater Map** — Interactive Leaflet map with military aircraft, naval vessels, strike markers, missile trajectory arcs, range rings, and distance measurement
+- **Israel Alert Status** — Live Pikud HaOref / Tzeva Adom missile alerts with audio notifications
 - **Conflict Monitor** — Categorized events (strikes, defense, diplomatic, nuclear)
 - **Missile / Strike Tracker** — Weapon type classification and severity
 - **Regional Threat Monitor** — Per-country threat levels across 10 nations
-- **Military Airspace** — Live military aircraft tracking via ADS-B
-- **Naval Tracker** — Vessel monitoring via GDELT
-- **Defense & Markets** — Defense contractor stocks, indices, commodities
-- **Energy Markets** — Oil, natural gas, heating oil prices
-- **Seismic Monitor** — USGS earthquake data
-- **Hot Thermal Detect** — NASA FIRMS fire/explosion detection
-- **Humanitarian Reports** — UN OCHA ReliefWeb data
+- **Military Airspace** — Live military aircraft tracking via adsb.lol
+- **Naval Tracker** — Vessel monitoring in the Persian Gulf and Eastern Mediterranean
+- **Defense & Markets** — Defense contractor stocks, indices, VIX, gold, USD
+- **Energy Markets** — WTI, Brent, natural gas, heating oil, gasoline
+- **Satellite Thermal Detect** — NASA FIRMS fire/explosion detection
 
 ## Data Sources
 
@@ -91,8 +90,7 @@ All data sources are free and require no API keys.
 | CNBC Quote API | Stock prices, indices, commodities | CNBC | Free, no key |
 | Tzeva Adom | Israeli missile/rocket alerts | Community mirror of Pikud HaOref | Free, no key |
 | NASA FIRMS | Fire/thermal detection satellite data | NASA | Free, no key |
-| USGS FDSNWS | Earthquake data | US Geological Survey | Free, no key |
-| ReliefWeb | Humanitarian reports | UN OCHA | Free, no key |
+| OpenSky Network | Backup aircraft tracking | OpenSky | Free, no key |
 | adsb.lol | Military aircraft ADS-B tracking | Community ADS-B network | Free, no key |
 | EIA | US gas prices | US Energy Information Administration | Free, public demo key |
 | GDELT | Global event data (naval tracking) | GDELT Project | Free, no key |
